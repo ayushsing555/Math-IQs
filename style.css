@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Shizuru&display=swap');
+input{
+    margin-top: 12px;
+    height: 20px;
+}
+*{
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    font-weight:bolder;
+    font-family: 'Fira Sans', sans-serif;
+}
+label{
+    color: rgb(252, 0, 0);
+    font-weight: 50%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.container div{
+    margin-top: 12px;
+}
+.form{
+
+    border: 2px solid;
+    padding: 20px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(14, 14, 63));
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.input{
+   margin-left:20px;
+   margin: 12px;
+   height: 20px;
+   width: 20px;
+}
+#quesno{
+    width: 30px;
+}
+#btn1,#btn2{
+    border-radius: 5px;
+}
+#btn3{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#btn3:hover{
+    background-color: azure;
+}
+#quesno{
+    width: 60px;
+}
+#btn3:hover{
+   background-color: blue;
+   color: wheat;
+   cursor: pointer;
+}
+.container{
+    display: block;
+}
+#quiz{
+    display: none;
+}
+.quiz input{
+      width: 120px;
+}
+
+.quiz{
+    background-image: linear-gradient(wheat,white,wheat);
+    padding: 30px;
+    width: 500px;
+    height: relative;
+}
+.quiz button{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+#btn4,#btn5{
+    background-image: linear-gradient(rgb(23, 23, 218),rgb(12, 12, 71));
+    border-radius: 40px;
+}
+#btn5{
+    display:none;
+}
+span{
+    color: red;
+}
+.quiz div{
+    margin-top: 40px;
+}
+#Question{
+    color:black;
+    width: auto;
+    height: 40px;
+}
+#btn5:hover,#btn4:hover,#btn6:hover{
+    cursor:pointer;
+}
+.right
+{
+    color: green;
+    border: 2px solid green;
+}
+#analysis{
+   display: none;  
+}
+.wrong{
+    color: red;
+    border: 2px solid red;
+}
+.analysis{
+    padding: 30px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-image: url();
+    flex-direction: row;
+   
+}
+.analysis div{
+    margin-top: 20px;
+    padding: 20px;
+    width: auto;
+}
+h1{
+    /* font-size: 50px;
+    color: rgba(252, 4, 4, 0.6);
+    text-shadow: 2px 8px 6px rgba(43, 24, 24, 0.2),
+                     0px -5px 35px rgba(253, 6, 6, 0.3); */
+                     font-size: 50px;
+                     text-shadow: 0 1px 0 rgb(117, 11, 11), 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#btn6{
+    background-image: linear-gradient(rgb(23, 23, 218),rgb(12, 12, 71));
+    border-radius: 40px;
+    color: whitesmoke;
+    width: 200px;
+}

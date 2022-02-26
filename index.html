@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Math IQs</h1>
+    <div class="container" id="container">
+        <div class="form">
+            <div>
+        <button id="btn1">Questions you want to solve</button>
+        <input type="number"id="quesno">
+            </div>
+        <div>
+            <label for="addition">Addition</label>
+        <input type="checkbox" id="add" class="input">
+        </div>
+        <div>
+            <label for="subtract">Subtract</label>
+        <input type="checkbox" id="sub" class="input">
+        </div>
+        <div>
+            <label for="multiply">Multiply</label>
+        <input type="checkbox" id="mult" class="input">
+        </div>
+        <div>
+            <label for="devide">Devide</label>
+        <input type="checkbox" id="devide" class="input">
+        </div>
+        <div>
+             <label for="Modular">Modular</label>
+        <input type="checkbox" id="modular" class="input">
+        </div>
+        <div>
+        <button id="btn2">Question's length you want to solve</button>
+            <select name="select" id="queslength">
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div>
+            <button id="btn3">Start</button>
+        </div>
+        </div>
+    </div>
+    <div class="quiz" id="quiz">
+          <div>
+              <h3>if your answer in non-integers then  round off to next digit
+                  <br>
+                  <br>
+                  <span>
+                  Eg. 7.234-8,
+                      7.789-8,
+                      7.1-8
+                     </span>
+              </h3>
+          </div>
+          <div>
+              <h2 id="current">
+                 
+              </h2>
+          </div>
+           <div>
+            <button id="Question"></button>
+            </div>
+            <div>
+                <input type="text" id="answer" placeholder="answer..">
+            </div>
+            <div>
+                 <button id="btn4">NEXT</button>
+            </div>
+             <div>
+                 <button id="btn5">Analysis</button>
+             </div>  
+        </div>
+    </div>
+    <div class="analysis" id="analysis">
+        <button id="btn6">Retry</button>
+    </div>
+    </center>
+   <script src="script.js"></script>
+</body>
+</html>

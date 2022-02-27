@@ -126,7 +126,7 @@ if(a==w){
     var h2=document.createElement("h2");
     var b=document.createElement("b");
     let textNode1 = document.createTextNode("Question"+flag+".  "+question);
-    let textNode2 = document.createTextNode("your answer:"+a);
+    let textNode2 = document.createTextNode("your answer: "+a);
     h2.appendChild(textNode1);
     b.appendChild(textNode2);
     x.appendChild(h2);
@@ -140,9 +140,9 @@ else if(a!=w){
      x.classList.add("wrong");
      var h2=document.createElement("h2");
      var b=document.createElement("b");
-     let textNode1 = document.createTextNode("Question:"+flag+"."+question);
-     let textNode2 = document.createTextNode("your answer:"+a+",");
-     let textnode3=document.createTextNode("Right answer:"+w);
+     let textNode1 = document.createTextNode("Question:"+flag+". "+question);
+     let textNode2 = document.createTextNode("your answer:"+a+", ");
+     let textnode3=document.createTextNode("Right answer: "+w);
      h2.appendChild(textNode1);
      b.appendChild(textNode2);
      b.appendChild(textnode3);
